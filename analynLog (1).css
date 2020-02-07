@@ -1,0 +1,109 @@
+body
+{
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+.box
+{
+  width: 240px;
+  padding: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  background: #5fb404;
+  border-radius: 5px;
+  text-align: center;
+}
+h3
+{
+  color: white;
+}
+p
+{
+  margin-bottom: -1px;
+  float: left;
+  color: white;
+}
+.box input[type="text"],.box input[type="password"]
+{
+	display: block;
+	border: 0;
+	background: #fff;
+	text-align: center;
+	margin: 5px auto;
+	padding: 8px 10px;
+	width: 215px;
+	outline: white;
+	border-radius: 2px;
+	transition: 0.15s;
+}
+.box a
+{
+  color: #fff;
+  margin: 0px 5px auto; 
+  float: right;
+}
+.box a:hover
+{
+  color: gray;
+}
+.box input[type="submit"]
+{
+	background: #464644;
+	border: 1px;
+	color: white;
+	border: none;
+	border-radius: none;
+	outline: white;
+	margin: 5px 0px auto;
+	cursor: pointer;
+	width: 235px;
+	padding: 8px;
+}
+.box input[type="button"]
+{
+	background: #464644;
+	border: 1px;
+	color: white;
+	border: none;
+	border-radius: none;
+	outline: white;
+	margin: 5px 0px auto;
+	cursor: pointer;
+	width: 235px;
+	padding: 8px;
+}
+
+.box input[type="button"].google
+{
+  margin: 10px 0px;
+  padding: 10px 10px;
+  width: 110px;
+  border: none;
+  border-radius: 5px;
+  background: red;
+  font-weight: bold;
+  color: white;
+}
+.box input[type="button"].fb
+{
+  margin: 10px -0px;
+  padding: 10px 10px;
+  width: 110px;
+  border: none;
+  border-radius: 5px;
+  background: blue;
+  font-weight: bold;
+  color: white;
+}
+.box .checkbox input[type="checkbox"]
+{
+  float: left;
+	margin: 1px
+}
+.cb
+{
+  margin-top: 1px;
+}

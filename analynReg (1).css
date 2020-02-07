@@ -1,0 +1,75 @@
+body
+{
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+.box
+{
+  width: 240px;
+  padding: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  background: #5fb404;
+  border-radius: 5px;
+  box-shadow: 0px 6px 5px -10px;
+  text-align: center;
+}
+h3
+{	
+	font-size: 15px;
+	color: white;
+}
+.box input[type="text"],.box input[type="password"]
+{
+	display: block;
+	border: 0;
+	background: #fff;
+	text-align: center;
+	margin: 5px auto;
+	padding: 8px 10px;
+	width: 215px;
+	outline: white;
+	border-radius: 2px;
+	transition: 0.15s;
+}
+p
+{
+  margin-bottom: -1px;
+  float: left;
+  color: white;
+}
+.box a
+{
+  color: #fff;
+  margin: 0px 0px; 
+  float: right;
+}
+.box a:hover
+{
+  color: gray;
+}
+.box input[type="button"]
+{
+	background: #464644;
+	border: 1px;
+	color: white;
+	border: none;
+	border-radius: 2px;
+	outline: white;
+	margin: 10px 0px auto;
+	cursor: pointer;
+	width: 240px;
+	padding: 8px;
+}
+.box .checkbox input[type="checkbox"]
+{
+  float: left;
+	margin: 1px
+}
+.cb
+{
+  margin-top: 1px;
+}
